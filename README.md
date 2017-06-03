@@ -26,7 +26,7 @@ $ cd ../..  # should be back in new_dir
 ## Running the Simulator
 We have a convenient `run.sh` script in this repo that will create the
 graphs that were the focus of our reproduction. Note that the simulator
-takes a while to run - you should expect about 10 minutes depending on 
+takes a while to run - you should expect about 30 minutes depending on 
 your machine. 
 
 `run.sh` will produce the following graphs in the `graphs` directory and
