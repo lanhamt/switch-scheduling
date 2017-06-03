@@ -18,3 +18,10 @@ We have a convenient `run.sh` script in this repo that will create the
 graphs that were the focus of our reproduction. Note that the simulator
 takes a while to run - you should expect about 10 minutes depending on 
 your machine. 
+
+## Tour of the Repo
+
+- `scrips/` holds scripts for generating config files and graphing test results
+- `master_configs/` holds templates that are used to generate custom sim config files
+
+
