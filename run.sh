@@ -1,5 +1,10 @@
 # run.sh
 
+# cleanup previous runs
+rm -rf sim_configs
+rm -rf sim_results
+
+
 # make directories for sim config files with 16 and 8 port arrangements
 mkdir sim_configs          2> /dev/null
 mkdir sim_configs/16x16    2> /dev/null
@@ -125,8 +130,5 @@ python scripts/plot.py islips $DATA_FILES islips
 
 mkdir graphs  2> /dev/null 
 mv *.png graphs/
-
-rm -rf sim_configs
-rm -rf sim_results
 
 cowsay "thanks for reproducing our reproduction of research!"
