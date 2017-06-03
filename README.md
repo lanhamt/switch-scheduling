@@ -19,6 +19,14 @@ graphs that were the focus of our reproduction. Note that the simulator
 takes a while to run - you should expect about 10 minutes depending on 
 your machine. 
 
+`run.sh` will produce the following graphs in the `graphs` directory:
+
+- `fig5.png` - a comparison of 4 different scheduing algorithms including iSLIP
+- `islips.png` - a comparison of iSLIP with different iteration counts
+- `islipslog.png` - the same as above but with a log scale
+- `pims.png` - a comparison of PIM with different iteration counts
+- `pimslog.png` - the same as above but with a log scale
+
 ## Tour of the Repo
 
 - `scrips/` holds scripts for generating config files and graphing test results
