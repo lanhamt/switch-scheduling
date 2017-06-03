@@ -14,6 +14,10 @@ repos into so we recommend making a directory off your home directory
 (or wherever you choose) and then cloning this repo and the sim repo
 into it. 
 
+You will need to install the following dependencies: build essentials 
+(gcc, make, etc), matplotlib, python (installed for most linux distros), 
+and any related dependencies specific to your system.
+
 ```
 $ cd new_dir  # your new dir
 $ git clone git@github.com:lanhamt/switch-scheduling.git
