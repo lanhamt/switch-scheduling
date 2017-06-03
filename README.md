@@ -28,6 +28,7 @@ should be similar to the ones below:
 - `pims.png` - a comparison of PIM with different iteration counts
 - `pimslog.png` - the same as above but with a log scale
 
+### Simulation Images
 ![slips](./images/islips.png)
 ![pims](./images/pims.png)
 
