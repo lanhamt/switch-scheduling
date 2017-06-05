@@ -25,6 +25,7 @@ $ cd new_dir  # your new dir
 $ git clone https://github.com/lanhamt/switch-scheduling
 $ cd switch_scheduling
 $ git clone https://github.com/nickmckeown/sim
+$ chmod +x install_deps.sh; sudo ./install_deps.sh
 $ cd sim/src
 $ make
 $ cd ../..  # should be back in new_dir
