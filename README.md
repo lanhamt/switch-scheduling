@@ -16,16 +16,23 @@ into it.
 
 You will need to install the following dependencies: build essentials 
 (gcc, make, etc), matplotlib, python (installed for most linux distros), 
-and any related dependencies specific to your system.
+and any related dependencies specific to your system. There is an
+installation script in this repository named `install_deps.sh` which
+can be run with the command `sudo ./install_deps.sh`.
 
 ```
 $ cd new_dir  # your new dir
-$ git clone git@github.com:lanhamt/switch-scheduling.git
-$ git clone sim
+$ git clone https://github.com/lanhamt/switch-scheduling
+$ cd switch_scheduling
+$ git clone https://github.com/nickmckeown/sim
 $ cd sim/src
 $ make
 $ cd ../..  # should be back in new_dir
+$ ./run.sh
 ```
+
+Make sure that `sim/` is in the `switch_scheduling/` directory, otherwise
+`run.sh` will have an incorrect path.
 
 ## Running the Simulator
 We have a convenient `run.sh` script in this repo that will create the
